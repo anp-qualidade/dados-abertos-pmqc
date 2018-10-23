@@ -7,9 +7,9 @@
         "schema": {
             "fields": [{
                     "name": "DataColeta",
-                    "type": "date",
-                    "format": "DD/MM/YYYY",
-                    "title": "Data de Coleta",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Data de Coleta no formato DD/MM/AAAA",
                     "description": "Data em que a amostra foi coletada no Posto Revendedor de Combustíveis."
                 },
                 {
