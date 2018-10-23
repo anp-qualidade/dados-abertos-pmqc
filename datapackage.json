@@ -133,7 +133,7 @@
                 }
             ]
         },
-        "encoding": "ISO/IEC 8859-1",
+        "encoding": "ISO-8859-1",
         "title": "PMQC",
         "description": "\n"
     }],
