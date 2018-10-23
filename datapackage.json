@@ -8,7 +8,7 @@
             "fields": [{
                     "name": "DataColeta",
                     "type": "date",
-                    "format": "DD/MM/AAAA",
+                    "format": "DD/MM/YYYY",
                     "title": "Data de Coleta",
                     "description": "Data em que a amostra foi coletada no Posto Revendedor de Combustíveis."
                 },
