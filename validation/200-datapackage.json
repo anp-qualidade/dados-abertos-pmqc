@@ -125,6 +125,13 @@
                         "description": "Resultado do ensaio físico-químico"
                     },
                     {
+                        "name": "UnidadeEnsaio",
+                        "type": "string",
+                        "format": "default",
+                        "title": "Unidade",
+                        "description": "Unidade do ensaio físico-químico"
+                    },
+                    {
                         "name": "Conforme",
                         "type": "string",
                         "format": "default",
@@ -260,6 +267,13 @@
                         "format": "default",
                         "title": "Resultado",
                         "description": "Resultado do ensaio físico-químico"
+                    },
+                    {
+                        "name": "UnidadeEnsaio",
+                        "type": "string",
+                        "format": "default",
+                        "title": "Unidade",
+                        "description": "Unidade do ensaio físico-químico"
                     },
                     {
                         "name": "Conforme",
@@ -399,6 +413,13 @@
                         "description": "Resultado do ensaio físico-químico"
                     },
                     {
+                        "name": "UnidadeEnsaio",
+                        "type": "string",
+                        "format": "default",
+                        "title": "Unidade",
+                        "description": "Unidade do ensaio físico-químico"
+                    },
+                    {
                         "name": "Conforme",
                         "type": "string",
                         "format": "default",
@@ -534,6 +555,13 @@
                         "format": "default",
                         "title": "Resultado",
                         "description": "Resultado do ensaio físico-químico"
+                    },
+                    {
+                        "name": "UnidadeEnsaio",
+                        "type": "string",
+                        "format": "default",
+                        "title": "Unidade",
+                        "description": "Unidade do ensaio físico-químico"
                     },
                     {
                         "name": "Conforme",
@@ -673,6 +701,13 @@
                         "description": "Resultado do ensaio físico-químico"
                     },
                     {
+                        "name": "UnidadeEnsaio",
+                        "type": "string",
+                        "format": "default",
+                        "title": "Unidade",
+                        "description": "Unidade do ensaio físico-químico"
+                    },
+                    {
                         "name": "Conforme",
                         "type": "string",
                         "format": "default",
@@ -808,6 +843,13 @@
                         "format": "default",
                         "title": "Resultado",
                         "description": "Resultado do ensaio físico-químico"
+                    },
+                    {
+                        "name": "UnidadeEnsaio",
+                        "type": "string",
+                        "format": "default",
+                        "title": "Unidade",
+                        "description": "Unidade do ensaio físico-químico"
                     },
                     {
                         "name": "Conforme",
@@ -947,6 +989,13 @@
                         "description": "Resultado do ensaio físico-químico"
                     },
                     {
+                        "name": "UnidadeEnsaio",
+                        "type": "string",
+                        "format": "default",
+                        "title": "Unidade",
+                        "description": "Unidade do ensaio físico-químico"
+                    },
+                    {
                         "name": "Conforme",
                         "type": "string",
                         "format": "default",
@@ -1084,6 +1133,13 @@
                         "description": "Resultado do ensaio físico-químico"
                     },
                     {
+                        "name": "UnidadeEnsaio",
+                        "type": "string",
+                        "format": "default",
+                        "title": "Unidade",
+                        "description": "Unidade do ensaio físico-químico"
+                    },
+                    {
                         "name": "Conforme",
                         "type": "string",
                         "format": "default",
@@ -1219,6 +1275,13 @@
                         "format": "default",
                         "title": "Resultado",
                         "description": "Resultado do ensaio físico-químico"
+                    },
+                    {
+                        "name": "UnidadeEnsaio",
+                        "type": "string",
+                        "format": "default",
+                        "title": "Unidade",
+                        "description": "Unidade do ensaio físico-químico"
                     },
                     {
                         "name": "Conforme",

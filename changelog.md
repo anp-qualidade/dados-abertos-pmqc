@@ -4,6 +4,18 @@ Todas as alterações relevantes serão documentas nesse arquivo.
 
 O presente versionamento é aderente as recomendações da especificação [Frictionless Data](https://frictionlessdata.io/specs/patterns/#data-package-version) que consiste em um adaptação do [versionamento semântico](http://semver.org/) adaptado para o contexto de *datasets*.
 
+## [2.0.0](https://github.com/anp-qualidade/dados-abertos-pmqc/tree/master/data/2.0.0) - 2018-10-24
+
+- Formato da *feature* **DataColeta** `alterada` para o formato ISO 8601;
+- Ocorrência da *feature* **Ensaio** Massa Específica a 20°C (Automático) `alterado` para Massa Específica a 20°C;
+- Ocorrência da *feature* **Ensaio** Massa Específica a 20°C (Manual) `alterado` para Massa Específica a 20°C;
+- Ocorrência da *feature* **Ensaio** Teor de Enxofre (D5453) `alterado` para Teor de Enxofre;
+- Ocorrência da *feature* **Ensaio** Teor de Enxofre (D4294) `alterado` para Teor de Enxofre;
+- Ocorrência da *feature* **Ensaio** Ponto de Fulgor (D93) `alterado` para Ponto de Fulgor;
+- Ocorrência da *feature* **Ensaio** Ponto de Fulgor (D56) `alterado` para Ponto de Fulgor;
+- Ocorrência da *feature* **Ensaio** Mat. Part. `alterado` para Material Particulado;
+- Ocorrência da *feature* **Ensaio** Material não Volátil `alterado` para Material Não Volátil;
+
 ## [1.0.0](https://github.com/anp-qualidade/dados-abertos-pmqc/tree/master/data/1.0.0) - 2018-10-17
 
 *Datasets* disponibilizados com as features: 
