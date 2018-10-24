@@ -1,9 +1,5 @@
 files:
-  - source: data/1-0-0/PMQC_09_2018-1-0-0.csv
-    format: csv
-
-datapackages:
-  - validation/1-0-0/datapackage.json
+  - source: '*.csv'
 
 settings:
   error_limit: 1
