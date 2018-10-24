@@ -1,5 +1,5 @@
 datapackages:
-  - 'datapackage.json'
+  - 'validation/100-datapackage.json'
 
 settings:
   row_limit: -1
