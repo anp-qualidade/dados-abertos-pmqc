@@ -1,7 +1,3 @@
-files:
-  - source: '*.csv'
-    delimiter: ';'
-
 datapackages:
   - 'datapackage.json'
 
@@ -14,7 +10,7 @@ settings:
     - blank-headers
   error_limit: 1
   table_limit: 1
-  row_limit: 5000
+  row_limit: -1
   infer_schema: True
   infer_fields: True
   order_fields: True
