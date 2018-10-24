@@ -2,6 +2,9 @@ files:
   - source: '*.csv'
     delimiter: ';'
 
+datapackages:
+  - datapackage.json
+
 settings:
   checks:
     # You can pass check types
