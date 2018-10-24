@@ -4,7 +4,7 @@ files:
     delimiter: ';'
 
 datapackages:
-  - 'datapackage/datapackage-1-0-0.json'
+  - 'datapackage/1.0.0/datapackage.json'
 
 settings:
   error_limit: 1
