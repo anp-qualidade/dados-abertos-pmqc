@@ -2,7 +2,7 @@
     "profile": "tabular-data-package",
     "resources": [{
         "name": "2018-09",
-        "path": "../data/1.0.0/PMQC_09_2018.csv",
+        "path": "../data/1.0.0/100_PMQC_09_2018.csv",
         "profile": "tabular-data-resource",
         "schema": {
             "fields": [{
