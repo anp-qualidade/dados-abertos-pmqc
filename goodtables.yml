@@ -10,7 +10,7 @@ settings:
     - blank-headers
   error_limit: 1
   table_limit: 1
-  row_limit: -1
+  row_limit: 1000
   infer_schema: True
   infer_fields: True
   order_fields: True
