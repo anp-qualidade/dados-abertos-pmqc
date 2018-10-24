@@ -1,2 +1,5 @@
 datapackages:
   - 'datapackage.json'
+
+settings:
+  row_limit: 5000
