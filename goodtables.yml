@@ -3,7 +3,7 @@ files:
     delimiter: ';'
 
 datapackages:
-  - datapackage.json
+  - 'datapackage.json'
 
 settings:
   checks:
