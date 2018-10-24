@@ -272,6 +272,958 @@
         "encoding": "ISO-8859-1",
         "title": "PMQC",
         "description": "\n"
+    }, {
+        "name": "2018-02",
+        "path": "../data/1.0.0/100_PMQC_02_2018.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+            "fields": [{
+                    "name": "DataColeta",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Data de Coleta no formato DD/MM/AAAA",
+                    "description": "Data em que a amostra foi coletada no Posto Revendedor de Combustíveis."
+                },
+                {
+                    "name": "IdNumeric",
+                    "type": "integer",
+                    "format": "default",
+                    "title": "Chave Primária",
+                    "description": "Código Númerico que identifica uma amostra coletada."
+                },
+                {
+                    "name": "GrupoProduto",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Categoria do combustível",
+                    "description": "Tipos de combustíveis: Etanol Gasolina e Óleo Diesel "
+                },
+                {
+                    "name": "Produto",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Tipo de combustível",
+                    "description": "Subdivisão de GrupoProduto."
+                },
+                {
+                    "name": "Posto",
+                    "type": "string",
+                    "format": "default",
+                    "description": "Razão social do Posto Revendedor de Combustível",
+                    "title": "Razão Social"
+                },
+                {
+                    "name": "CnpjPosto",
+                    "type": "string",
+                    "format": "default",
+                    "title": "CNPJ",
+                    "description": "O CNPJ do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Distribuidora",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Razão Social",
+                    "description": "A razão social da distribuidora de combustível."
+                },
+                {
+                    "name": "Endereço",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Endereço",
+                    "description": "Endereço do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Complemento",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Complemento",
+                    "description": "Complemento do endereço do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Bairro",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Bairro",
+                    "description": "Bairro do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Município",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Município",
+                    "description": "Município onde está localizado o Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Latitude",
+                    "type": "number",
+                    "format": "default",
+                    "title": "Latitude",
+                    "description": "Latitude do Posto Revendedor de Combustível"
+                },
+                {
+                    "name": "Longitude",
+                    "type": "number",
+                    "format": "default",
+                    "title": "Longitude",
+                    "description": "Longitude do Posto Revendedor de Combustível"
+                },
+                {
+                    "name": "Uf",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Unidade da Federação",
+                    "description": "UF associada ao Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "RegiaoPolitica",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Região Política",
+                    "description": "Região Política do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Ensaio",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Ensaio",
+                    "description": "Nome do ensaio físico-químico realizada na amostra."
+                },
+                {
+                    "name": "Resultado",
+                    "type": "any",
+                    "format": "default",
+                    "title": "Resultado",
+                    "description": "Resultado do ensaio físico-químico"
+                },
+                {
+                    "name": "Conforme",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Avaliação de Conformidade",
+                    "description": "Avalia se o resultado é conforme ou não conforme a especificação vigente."
+                }
+            ]
+        },
+        "encoding": "ISO-8859-1",
+        "title": "PMQC",
+        "description": "\n"
+    }, {
+        "name": "2018-03",
+        "path": "../data/1.0.0/100_PMQC_03_2018.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+            "fields": [{
+                    "name": "DataColeta",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Data de Coleta no formato DD/MM/AAAA",
+                    "description": "Data em que a amostra foi coletada no Posto Revendedor de Combustíveis."
+                },
+                {
+                    "name": "IdNumeric",
+                    "type": "integer",
+                    "format": "default",
+                    "title": "Chave Primária",
+                    "description": "Código Númerico que identifica uma amostra coletada."
+                },
+                {
+                    "name": "GrupoProduto",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Categoria do combustível",
+                    "description": "Tipos de combustíveis: Etanol Gasolina e Óleo Diesel "
+                },
+                {
+                    "name": "Produto",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Tipo de combustível",
+                    "description": "Subdivisão de GrupoProduto."
+                },
+                {
+                    "name": "Posto",
+                    "type": "string",
+                    "format": "default",
+                    "description": "Razão social do Posto Revendedor de Combustível",
+                    "title": "Razão Social"
+                },
+                {
+                    "name": "CnpjPosto",
+                    "type": "string",
+                    "format": "default",
+                    "title": "CNPJ",
+                    "description": "O CNPJ do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Distribuidora",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Razão Social",
+                    "description": "A razão social da distribuidora de combustível."
+                },
+                {
+                    "name": "Endereço",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Endereço",
+                    "description": "Endereço do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Complemento",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Complemento",
+                    "description": "Complemento do endereço do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Bairro",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Bairro",
+                    "description": "Bairro do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Município",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Município",
+                    "description": "Município onde está localizado o Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Latitude",
+                    "type": "number",
+                    "format": "default",
+                    "title": "Latitude",
+                    "description": "Latitude do Posto Revendedor de Combustível"
+                },
+                {
+                    "name": "Longitude",
+                    "type": "number",
+                    "format": "default",
+                    "title": "Longitude",
+                    "description": "Longitude do Posto Revendedor de Combustível"
+                },
+                {
+                    "name": "Uf",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Unidade da Federação",
+                    "description": "UF associada ao Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "RegiaoPolitica",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Região Política",
+                    "description": "Região Política do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Ensaio",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Ensaio",
+                    "description": "Nome do ensaio físico-químico realizada na amostra."
+                },
+                {
+                    "name": "Resultado",
+                    "type": "any",
+                    "format": "default",
+                    "title": "Resultado",
+                    "description": "Resultado do ensaio físico-químico"
+                },
+                {
+                    "name": "Conforme",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Avaliação de Conformidade",
+                    "description": "Avalia se o resultado é conforme ou não conforme a especificação vigente."
+                }
+            ]
+        },
+        "encoding": "ISO-8859-1",
+        "title": "PMQC",
+        "description": "\n"
+    }, {
+        "name": "2018-04",
+        "path": "../data/1.0.0/100_PMQC_04_2018.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+            "fields": [{
+                    "name": "DataColeta",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Data de Coleta no formato DD/MM/AAAA",
+                    "description": "Data em que a amostra foi coletada no Posto Revendedor de Combustíveis."
+                },
+                {
+                    "name": "IdNumeric",
+                    "type": "integer",
+                    "format": "default",
+                    "title": "Chave Primária",
+                    "description": "Código Númerico que identifica uma amostra coletada."
+                },
+                {
+                    "name": "GrupoProduto",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Categoria do combustível",
+                    "description": "Tipos de combustíveis: Etanol Gasolina e Óleo Diesel "
+                },
+                {
+                    "name": "Produto",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Tipo de combustível",
+                    "description": "Subdivisão de GrupoProduto."
+                },
+                {
+                    "name": "Posto",
+                    "type": "string",
+                    "format": "default",
+                    "description": "Razão social do Posto Revendedor de Combustível",
+                    "title": "Razão Social"
+                },
+                {
+                    "name": "CnpjPosto",
+                    "type": "string",
+                    "format": "default",
+                    "title": "CNPJ",
+                    "description": "O CNPJ do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Distribuidora",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Razão Social",
+                    "description": "A razão social da distribuidora de combustível."
+                },
+                {
+                    "name": "Endereço",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Endereço",
+                    "description": "Endereço do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Complemento",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Complemento",
+                    "description": "Complemento do endereço do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Bairro",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Bairro",
+                    "description": "Bairro do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Município",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Município",
+                    "description": "Município onde está localizado o Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Latitude",
+                    "type": "number",
+                    "format": "default",
+                    "title": "Latitude",
+                    "description": "Latitude do Posto Revendedor de Combustível"
+                },
+                {
+                    "name": "Longitude",
+                    "type": "number",
+                    "format": "default",
+                    "title": "Longitude",
+                    "description": "Longitude do Posto Revendedor de Combustível"
+                },
+                {
+                    "name": "Uf",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Unidade da Federação",
+                    "description": "UF associada ao Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "RegiaoPolitica",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Região Política",
+                    "description": "Região Política do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Ensaio",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Ensaio",
+                    "description": "Nome do ensaio físico-químico realizada na amostra."
+                },
+                {
+                    "name": "Resultado",
+                    "type": "any",
+                    "format": "default",
+                    "title": "Resultado",
+                    "description": "Resultado do ensaio físico-químico"
+                },
+                {
+                    "name": "Conforme",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Avaliação de Conformidade",
+                    "description": "Avalia se o resultado é conforme ou não conforme a especificação vigente."
+                }
+            ]
+        },
+        "encoding": "ISO-8859-1",
+        "title": "PMQC",
+        "description": "\n"
+    }, {
+        "name": "2018-05",
+        "path": "../data/1.0.0/100_PMQC_05_2018.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+            "fields": [{
+                    "name": "DataColeta",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Data de Coleta no formato DD/MM/AAAA",
+                    "description": "Data em que a amostra foi coletada no Posto Revendedor de Combustíveis."
+                },
+                {
+                    "name": "IdNumeric",
+                    "type": "integer",
+                    "format": "default",
+                    "title": "Chave Primária",
+                    "description": "Código Númerico que identifica uma amostra coletada."
+                },
+                {
+                    "name": "GrupoProduto",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Categoria do combustível",
+                    "description": "Tipos de combustíveis: Etanol Gasolina e Óleo Diesel "
+                },
+                {
+                    "name": "Produto",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Tipo de combustível",
+                    "description": "Subdivisão de GrupoProduto."
+                },
+                {
+                    "name": "Posto",
+                    "type": "string",
+                    "format": "default",
+                    "description": "Razão social do Posto Revendedor de Combustível",
+                    "title": "Razão Social"
+                },
+                {
+                    "name": "CnpjPosto",
+                    "type": "string",
+                    "format": "default",
+                    "title": "CNPJ",
+                    "description": "O CNPJ do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Distribuidora",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Razão Social",
+                    "description": "A razão social da distribuidora de combustível."
+                },
+                {
+                    "name": "Endereço",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Endereço",
+                    "description": "Endereço do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Complemento",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Complemento",
+                    "description": "Complemento do endereço do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Bairro",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Bairro",
+                    "description": "Bairro do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Município",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Município",
+                    "description": "Município onde está localizado o Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Latitude",
+                    "type": "number",
+                    "format": "default",
+                    "title": "Latitude",
+                    "description": "Latitude do Posto Revendedor de Combustível"
+                },
+                {
+                    "name": "Longitude",
+                    "type": "number",
+                    "format": "default",
+                    "title": "Longitude",
+                    "description": "Longitude do Posto Revendedor de Combustível"
+                },
+                {
+                    "name": "Uf",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Unidade da Federação",
+                    "description": "UF associada ao Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "RegiaoPolitica",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Região Política",
+                    "description": "Região Política do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Ensaio",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Ensaio",
+                    "description": "Nome do ensaio físico-químico realizada na amostra."
+                },
+                {
+                    "name": "Resultado",
+                    "type": "any",
+                    "format": "default",
+                    "title": "Resultado",
+                    "description": "Resultado do ensaio físico-químico"
+                },
+                {
+                    "name": "Conforme",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Avaliação de Conformidade",
+                    "description": "Avalia se o resultado é conforme ou não conforme a especificação vigente."
+                }
+            ]
+        },
+        "encoding": "ISO-8859-1",
+        "title": "PMQC",
+        "description": "\n"
+    }, {
+        "name": "2018-06",
+        "path": "../data/1.0.0/100_PMQC_06_2018.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+            "fields": [{
+                    "name": "DataColeta",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Data de Coleta no formato DD/MM/AAAA",
+                    "description": "Data em que a amostra foi coletada no Posto Revendedor de Combustíveis."
+                },
+                {
+                    "name": "IdNumeric",
+                    "type": "integer",
+                    "format": "default",
+                    "title": "Chave Primária",
+                    "description": "Código Númerico que identifica uma amostra coletada."
+                },
+                {
+                    "name": "GrupoProduto",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Categoria do combustível",
+                    "description": "Tipos de combustíveis: Etanol Gasolina e Óleo Diesel "
+                },
+                {
+                    "name": "Produto",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Tipo de combustível",
+                    "description": "Subdivisão de GrupoProduto."
+                },
+                {
+                    "name": "Posto",
+                    "type": "string",
+                    "format": "default",
+                    "description": "Razão social do Posto Revendedor de Combustível",
+                    "title": "Razão Social"
+                },
+                {
+                    "name": "CnpjPosto",
+                    "type": "string",
+                    "format": "default",
+                    "title": "CNPJ",
+                    "description": "O CNPJ do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Distribuidora",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Razão Social",
+                    "description": "A razão social da distribuidora de combustível."
+                },
+                {
+                    "name": "Endereço",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Endereço",
+                    "description": "Endereço do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Complemento",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Complemento",
+                    "description": "Complemento do endereço do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Bairro",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Bairro",
+                    "description": "Bairro do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Município",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Município",
+                    "description": "Município onde está localizado o Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Latitude",
+                    "type": "number",
+                    "format": "default",
+                    "title": "Latitude",
+                    "description": "Latitude do Posto Revendedor de Combustível"
+                },
+                {
+                    "name": "Longitude",
+                    "type": "number",
+                    "format": "default",
+                    "title": "Longitude",
+                    "description": "Longitude do Posto Revendedor de Combustível"
+                },
+                {
+                    "name": "Uf",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Unidade da Federação",
+                    "description": "UF associada ao Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "RegiaoPolitica",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Região Política",
+                    "description": "Região Política do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Ensaio",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Ensaio",
+                    "description": "Nome do ensaio físico-químico realizada na amostra."
+                },
+                {
+                    "name": "Resultado",
+                    "type": "any",
+                    "format": "default",
+                    "title": "Resultado",
+                    "description": "Resultado do ensaio físico-químico"
+                },
+                {
+                    "name": "Conforme",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Avaliação de Conformidade",
+                    "description": "Avalia se o resultado é conforme ou não conforme a especificação vigente."
+                }
+            ]
+        },
+        "encoding": "ISO-8859-1",
+        "title": "PMQC",
+        "description": "\n"
+    }, {
+        "name": "2018-07",
+        "path": "../data/1.0.0/100_PMQC_07_2018.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+            "fields": [{
+                    "name": "DataColeta",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Data de Coleta no formato DD/MM/AAAA",
+                    "description": "Data em que a amostra foi coletada no Posto Revendedor de Combustíveis."
+                },
+                {
+                    "name": "IdNumeric",
+                    "type": "integer",
+                    "format": "default",
+                    "title": "Chave Primária",
+                    "description": "Código Númerico que identifica uma amostra coletada."
+                },
+                {
+                    "name": "GrupoProduto",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Categoria do combustível",
+                    "description": "Tipos de combustíveis: Etanol Gasolina e Óleo Diesel "
+                },
+                {
+                    "name": "Produto",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Tipo de combustível",
+                    "description": "Subdivisão de GrupoProduto."
+                },
+                {
+                    "name": "Posto",
+                    "type": "string",
+                    "format": "default",
+                    "description": "Razão social do Posto Revendedor de Combustível",
+                    "title": "Razão Social"
+                },
+                {
+                    "name": "CnpjPosto",
+                    "type": "string",
+                    "format": "default",
+                    "title": "CNPJ",
+                    "description": "O CNPJ do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Distribuidora",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Razão Social",
+                    "description": "A razão social da distribuidora de combustível."
+                },
+                {
+                    "name": "Endereço",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Endereço",
+                    "description": "Endereço do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Complemento",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Complemento",
+                    "description": "Complemento do endereço do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Bairro",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Bairro",
+                    "description": "Bairro do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Município",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Município",
+                    "description": "Município onde está localizado o Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Latitude",
+                    "type": "number",
+                    "format": "default",
+                    "title": "Latitude",
+                    "description": "Latitude do Posto Revendedor de Combustível"
+                },
+                {
+                    "name": "Longitude",
+                    "type": "number",
+                    "format": "default",
+                    "title": "Longitude",
+                    "description": "Longitude do Posto Revendedor de Combustível"
+                },
+                {
+                    "name": "Uf",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Unidade da Federação",
+                    "description": "UF associada ao Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "RegiaoPolitica",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Região Política",
+                    "description": "Região Política do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Ensaio",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Ensaio",
+                    "description": "Nome do ensaio físico-químico realizada na amostra."
+                },
+                {
+                    "name": "Resultado",
+                    "type": "any",
+                    "format": "default",
+                    "title": "Resultado",
+                    "description": "Resultado do ensaio físico-químico"
+                },
+                {
+                    "name": "Conforme",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Avaliação de Conformidade",
+                    "description": "Avalia se o resultado é conforme ou não conforme a especificação vigente."
+                }
+            ]
+        },
+        "encoding": "ISO-8859-1",
+        "title": "PMQC",
+        "description": "\n"
+    }, {
+        "name": "2018-08",
+        "path": "../data/1.0.0/100_PMQC_08_2018.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+            "fields": [{
+                    "name": "DataColeta",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Data de Coleta no formato DD/MM/AAAA",
+                    "description": "Data em que a amostra foi coletada no Posto Revendedor de Combustíveis."
+                },
+                {
+                    "name": "IdNumeric",
+                    "type": "integer",
+                    "format": "default",
+                    "title": "Chave Primária",
+                    "description": "Código Númerico que identifica uma amostra coletada."
+                },
+                {
+                    "name": "GrupoProduto",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Categoria do combustível",
+                    "description": "Tipos de combustíveis: Etanol Gasolina e Óleo Diesel "
+                },
+                {
+                    "name": "Produto",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Tipo de combustível",
+                    "description": "Subdivisão de GrupoProduto."
+                },
+                {
+                    "name": "Posto",
+                    "type": "string",
+                    "format": "default",
+                    "description": "Razão social do Posto Revendedor de Combustível",
+                    "title": "Razão Social"
+                },
+                {
+                    "name": "CnpjPosto",
+                    "type": "string",
+                    "format": "default",
+                    "title": "CNPJ",
+                    "description": "O CNPJ do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Distribuidora",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Razão Social",
+                    "description": "A razão social da distribuidora de combustível."
+                },
+                {
+                    "name": "Endereço",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Endereço",
+                    "description": "Endereço do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Complemento",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Complemento",
+                    "description": "Complemento do endereço do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Bairro",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Bairro",
+                    "description": "Bairro do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Município",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Município",
+                    "description": "Município onde está localizado o Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Latitude",
+                    "type": "number",
+                    "format": "default",
+                    "title": "Latitude",
+                    "description": "Latitude do Posto Revendedor de Combustível"
+                },
+                {
+                    "name": "Longitude",
+                    "type": "number",
+                    "format": "default",
+                    "title": "Longitude",
+                    "description": "Longitude do Posto Revendedor de Combustível"
+                },
+                {
+                    "name": "Uf",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Unidade da Federação",
+                    "description": "UF associada ao Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "RegiaoPolitica",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Região Política",
+                    "description": "Região Política do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Ensaio",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Ensaio",
+                    "description": "Nome do ensaio físico-químico realizada na amostra."
+                },
+                {
+                    "name": "Resultado",
+                    "type": "any",
+                    "format": "default",
+                    "title": "Resultado",
+                    "description": "Resultado do ensaio físico-químico"
+                },
+                {
+                    "name": "Conforme",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Avaliação de Conformidade",
+                    "description": "Avalia se o resultado é conforme ou não conforme a especificação vigente."
+                }
+            ]
+        },
+        "encoding": "ISO-8859-1",
+        "title": "PMQC",
+        "description": "\n"
     }],
     "keywords": [
         "anp",
