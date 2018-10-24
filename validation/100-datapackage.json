@@ -1244,7 +1244,7 @@
     ],
     "name": "pmqc-data-package",
     "title": "PMQC",
-    "description": "Dados Abertos do Programa de Monitoramento de Combustíveis da Agência Nacional do Petróleo",
+    "description": "Dados Abertos do Programa de Monitoramento de Combustíveis da Agência Nacional do Petróleo, Gás Natural e Biocombustíveis",
     "homepage": "http://www.anp.gov.br/dados-abertos-anp",
     "version": "1.0.0",
     "contributors": [{
