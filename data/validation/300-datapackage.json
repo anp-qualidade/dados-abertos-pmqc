@@ -4,7 +4,7 @@
             "name": "2018-01",
             "path": "3.0.0/300_PMQC_01_2018.csv",
             "profile": "tabular-data-resource",
-            "schema": "300-schema.json",
+            "schema": "https://raw.githubusercontent.com/anp-qualidade/dados-abertos-pmqc/new_schema/data/validation/300-schema.json",
             "encoding": "utf8",
             "title": "PMQC",
             "description": "\n"
@@ -13,7 +13,7 @@
             "name": "2018-02",
             "path": "3.0.0/300_PMQC_02_2018.csv",
             "profile": "tabular-data-resource",
-            "schema": "300-schema.json",
+            "schema": "https://raw.githubusercontent.com/anp-qualidade/dados-abertos-pmqc/new_schema/data/validation/300-schema.json",
             "encoding": "utf8",
             "title": "PMQC",
             "description": "\n"
