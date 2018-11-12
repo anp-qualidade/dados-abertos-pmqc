@@ -2,19 +2,19 @@
     "profile": "tabular-data-package",
     "resources": [{
             "name": "2018-01",
-            "path": "../data/3.0.0/300_PMQC_01_2018.csv",
+            "path": "3.0.0/300_PMQC_01_2018.csv",
             "profile": "tabular-data-resource",
             "schema": "300-schema.json",
-            "encoding": "utf-8",
+            "encoding": "utf8",
             "title": "PMQC",
             "description": "\n"
         },
         {
             "name": "2018-02",
-            "path": "../data/3.0.0/300_PMQC_02_2018.csv",
+            "path": "3.0.0/300_PMQC_02_2018.csv",
             "profile": "tabular-data-resource",
             "schema": "300-schema.json",
-            "encoding": "utf-8",
+            "encoding": "utf8",
             "title": "PMQC",
             "description": "\n"
         }
@@ -31,7 +31,7 @@
     "title": "PMQC",
     "description": "Dados Abertos do Programa de Monitoramento de Combustíveis da Agência Nacional do Petróleo, Gás Natural e Biocombustíveis",
     "homepage": "http://www.anp.gov.br/dados-abertos-anp",
-    "version": "3.0.0",
+    "version": "2.0.0",
     "contributors": [{
         "title": "José Ferraz Neto",
         "role": "author"

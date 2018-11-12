@@ -2,7 +2,7 @@
     "profile": "tabular-data-package",
     "resources": [{
             "name": "2018-01",
-            "path": "../data/2.0.0/200_PMQC_01_2018.csv",
+            "path": "2.0.0/200_PMQC_01_2018.csv",
             "profile": "tabular-data-resource",
             "schema": {
                 "fields": [{
@@ -146,7 +146,7 @@
         },
         {
             "name": "2018-02",
-            "path": "../data/2.0.0/200_PMQC_02_2018.csv",
+            "path": "2.0.0/200_PMQC_02_2018.csv",
             "profile": "tabular-data-resource",
             "schema": {
                 "fields": [{
@@ -290,7 +290,7 @@
         },
         {
             "name": "2018-03",
-            "path": "../data/2.0.0/200_PMQC_03_2018.csv",
+            "path": "2.0.0/200_PMQC_03_2018.csv",
             "profile": "tabular-data-resource",
             "schema": {
                 "fields": [{
@@ -434,7 +434,7 @@
         },
         {
             "name": "2018-04",
-            "path": "../data/2.0.0/200_PMQC_04_2018.csv",
+            "path": "2.0.0/200_PMQC_04_2018.csv",
             "profile": "tabular-data-resource",
             "schema": {
                 "fields": [{
@@ -578,7 +578,7 @@
         },
         {
             "name": "2018-05",
-            "path": "../data/2.0.0/200_PMQC_05_2018.csv",
+            "path": "2.0.0/200_PMQC_05_2018.csv",
             "profile": "tabular-data-resource",
             "schema": {
                 "fields": [{
@@ -722,7 +722,7 @@
         },
         {
             "name": "2018-06",
-            "path": "../data/2.0.0/200_PMQC_06_2018.csv",
+            "path": "2.0.0/200_PMQC_06_2018.csv",
             "profile": "tabular-data-resource",
             "schema": {
                 "fields": [{
@@ -866,7 +866,7 @@
         },
         {
             "name": "2018-07",
-            "path": "../data/2.0.0/200_PMQC_07_2018.csv",
+            "path": "2.0.0/200_PMQC_07_2018.csv",
             "profile": "tabular-data-resource",
             "schema": {
                 "fields": [{
@@ -1010,7 +1010,7 @@
         },
         {
             "name": "2018-08",
-            "path": "../data/2.0.0/200_PMQC_08_2018.csv",
+            "path": "2.0.0/200_PMQC_08_2018.csv",
             "profile": "tabular-data-resource",
             "schema": {
                 "fields": [{
@@ -1154,7 +1154,7 @@
         },
         {
             "name": "2018-09",
-            "path": "../data/2.0.0/200_PMQC_09_2018.csv",
+            "path": "2.0.0/200_PMQC_09_2018.csv",
             "profile": "tabular-data-resource",
             "schema": {
                 "fields": [{
