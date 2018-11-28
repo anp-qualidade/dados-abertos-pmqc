@@ -9026,16 +9026,20 @@
     "version": "3.0.0",
     "contributors": [{
         "title": "José Ferraz Neto",
-        "role": "author"
+        "role": "maintainer",
+        "organization": "ANP"
     }, {
         "title": "Ingrid da Silva Martins",
-        "role": "author"
+        "role": "publisher",
+        "organization": "ANP"
     }, {
         "title": "Priscila Bastos Pinheiro",
-        "role": "author"
+        "role": "contributor",
+        "organization": "ANP"
     }, {
         "title": "Ana Amélia Martini",
-        "role": "author"
+        "role": "contributor",
+        "organization": "ANP"
     }],
     "licenses": [{
         "name": "CC-BY-4.0",
