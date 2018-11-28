@@ -1,7 +1,7 @@
 {
     "profile": "tabular-data-package",
     "resources": [{
-        "name": "Dados Abertos PMQC",
+        "name": "2016-2018",
         "path": ["http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2018_01.csv",
             "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2018_02.csv",
             "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2018_03.csv",
