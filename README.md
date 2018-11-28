@@ -4,11 +4,11 @@
 
 ![logo ANP](./imgs/logoANP_h.jpg)
 
-Uma das atribuições da [ANP](http://www.anp.gov.br/) é proteger os interesses dos consumidores quanto à qualidade dos derivados de petróleo, gás natural e dos biocombustíveis comercializados em todo o território brasileiro. Com este objetivo, a Agência mantém o PMQC - Programa de Monitoramento da Qualidade dos Combustíveis - para monitorar constantemente a conformidade de gasolina, etanol e óleo diesel comercializados na revenda.
+Uma das atribuições da [ANP](http://www.anp.gov.br/) é proteger os interesses dos consumidores quanto à qualidade dos derivados de petróleo, gás natural e dos biocombustíveis comercializados em todo o território brasileiro. Com este objetivo, a Agência mantém o PMQC - Programa de Monitoramento da Qualidade dos Combustíveis - para monitorar constantemente a conformidade de gasolina, etanol e óleo diesel comercializados na revenda. Os principais objetivos do PMQC são o levantamento dos indicadores gerais da qualidade dos combustíveis comercializados no País e a identificação de focos de não conformidade, visando à simetria de informações e a orientar e aperfeiçoar a atuação da área de fiscalização da Agência.
 
-Esse repositório possui validação contínua via [goodtables.io](https://goodtables.io/).
+Esse repositório possui validação contínua dos dados via [goodtables.io](https://goodtables.io/).
 
-**STATUS** [![goodtables.io](https://goodtables.io/badge/github/anp-qualidade/dados-abertos-pmqc.svg)](https://goodtables.io/github/anp-qualidade/dados-abertos-pmqc)
+[![goodtables.io](https://goodtables.io/badge/github/anp-qualidade/dados-abertos-pmqc.svg)](https://goodtables.io/github/anp-qualidade/dados-abertos-pmqc)
 
 ## 2018 
 
