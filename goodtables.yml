@@ -3,4 +3,4 @@ datapackages:
   - 'data/validation/300-datapackage.json'
 
 settings:
-row_limit: -1
+  row_limit: -1
