@@ -8,6 +8,7 @@ ipython = "*"
 
 [packages]
 datapackage = "*"
+goodtables = "*"
 
 [requires]
 python_version = "3.7"
