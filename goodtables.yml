@@ -6,3 +6,11 @@ files:
 
 settings:
   row_limit: -1
+  checks:
+    # You can pass check types
+    - structure
+    - schema
+    # ... or individual checks
+    - blank-header
+    - duplicate-row
+    - missing-value
