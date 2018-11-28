@@ -4,7 +4,7 @@
         "name": "2018-01",
         "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2018_01.csv",
         "profile": "tabular-data-resource",
-        "schema": "schema/300-schema.json",
+        "schema": "300-schema.json",
         "encoding": "utf8",
         "title": "PMQC",
         "description": "\n"
