@@ -2,21 +2,343 @@
     "profile": "tabular-data-package",
     "resources": [{
             "name": "2018-01",
-            "path": "3.0.0/300_PMQC_01_2018.csv",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2018_01.csv",
+            "format": "csv",
             "profile": "tabular-data-resource",
             "schema": "schema/300-schema.json",
             "encoding": "utf8",
             "title": "PMQC",
-            "description": "\n"
+            "description": "Dados referentes ao mês de Janeiro de 2018."
         },
         {
             "name": "2018-02",
-            "path": "3.0.0/300_PMQC_02_2018.csv",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_02_2018.csv",
+            "format": "csv",
             "profile": "tabular-data-resource",
             "schema": "schema/300-schema.json",
             "encoding": "utf8",
             "title": "PMQC",
-            "description": "\n"
+            "description": "Dados referentes ao mês de Fevereiro de 2018."
+        },
+        {
+            "name": "2018-03",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_03_2018.csv",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "schema/300-schema.json",
+            "encoding": "utf8",
+            "title": "PMQC",
+            "description": "Dados referentes ao mês de Março de 2018."
+        },
+        {
+            "name": "2018-04",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_04_2018.csv",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "schema/300-schema.json",
+            "encoding": "utf8",
+            "title": "PMQC",
+            "description": "Dados referentes ao mês de Abril de 2018."
+        },
+        {
+            "name": "2018-05",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_05_2018.csv",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "schema/300-schema.json",
+            "encoding": "utf8",
+            "title": "PMQC",
+            "description": "Dados referentes ao mês de Maio de 2018."
+        },
+        {
+            "name": "2018-06",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_06_2018.csv",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "schema/300-schema.json",
+            "encoding": "utf8",
+            "title": "PMQC",
+            "description": "Dados referentes ao mês de Junho de 2018."
+        },
+        {
+            "name": "2018-07",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_07_2018.csv",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "schema/300-schema.json",
+            "encoding": "utf8",
+            "title": "PMQC",
+            "description": "Dados referentes ao mês de Julho de 2018."
+        },
+        {
+            "name": "2018-08",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_08_2018.csv",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "schema/300-schema.json",
+            "encoding": "utf8",
+            "title": "PMQC",
+            "description": "Dados referentes ao mês de Agosto de 2018."
+        },
+        {
+            "name": "2018-09",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_09_2018.csv",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "schema/300-schema.json",
+            "encoding": "utf8",
+            "title": "PMQC",
+            "description": "Dados referentes ao mês de Setembro de 2018."
+        },
+        {
+            "name": "2018-10",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_09_2018.csv",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "schema/300-schema.json",
+            "encoding": "utf8",
+            "title": "PMQC",
+            "description": "Dados referentes ao mês de Outubro de 2018."
+        },
+        {
+            "name": "2017-01",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_01_2017.csv",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "schema/300-schema.json",
+            "encoding": "utf8",
+            "title": "PMQC",
+            "description": "Dados referentes ao mês de Janeiro de 2017."
+        },
+        {
+            "name": "2017-02",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_02_2017.csv",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "schema/300-schema.json",
+            "encoding": "utf8",
+            "title": "PMQC",
+            "description": "Dados referentes ao mês de Fevereiro de 2017."
+        },
+        {
+            "name": "2017-03",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_03_2017.csv",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "schema/300-schema.json",
+            "encoding": "utf8",
+            "title": "PMQC",
+            "description": "Dados referentes ao mês de Março de 2017."
+        },
+        {
+            "name": "2017-04",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_04_2017.csv",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "schema/300-schema.json",
+            "encoding": "utf8",
+            "title": "PMQC",
+            "description": "Dados referentes ao mês de Abril de 2017."
+        },
+        {
+            "name": "2017-05",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_05_2017.csv",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "schema/300-schema.json",
+            "encoding": "utf8",
+            "title": "PMQC",
+            "description": "Dados referentes ao mês de Maio de 2017."
+        },
+        {
+            "name": "2017-06",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_06_2017.csv",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "schema/300-schema.json",
+            "encoding": "utf8",
+            "title": "PMQC",
+            "description": "Dados referentes ao mês de Junho de 2017."
+        },
+        {
+            "name": "2017-07",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_07_2017.csv",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "schema/300-schema.json",
+            "encoding": "utf8",
+            "title": "PMQC",
+            "description": "Dados referentes ao mês de Julho de 2017."
+        },
+        {
+            "name": "2017-08",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_08_2017.csv",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "schema/300-schema.json",
+            "encoding": "utf8",
+            "title": "PMQC",
+            "description": "Dados referentes ao mês de Agosto de 2017."
+        },
+        {
+            "name": "2017-09",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_09_2017.csv",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "schema/300-schema.json",
+            "encoding": "utf8",
+            "title": "PMQC",
+            "description": "Dados referentes ao mês de Setembro de 2017."
+        },
+        {
+            "name": "2017-10",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_10_2017.csv",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "schema/300-schema.json",
+            "encoding": "utf8",
+            "title": "PMQC",
+            "description": "Dados referentes ao mês de Outubro de 2017."
+        },
+        {
+            "name": "2017-11",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_11_2017.csv",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "schema/300-schema.json",
+            "encoding": "utf8",
+            "title": "PMQC",
+            "description": "Dados referentes ao mês de Novembro de 2017."
+        },
+        {
+            "name": "2017-12",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_12_2017.csv",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "schema/300-schema.json",
+            "encoding": "utf8",
+            "title": "PMQC",
+            "description": "Dados referentes ao mês de Dezembro de 2017."
+        },
+        {
+            "name": "2016-01",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_01_2016.csv",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "schema/300-schema.json",
+            "encoding": "utf8",
+            "title": "PMQC",
+            "description": "Dados referentes ao mês de Janeiro de 2016."
+        },
+        {
+            "name": "2016-02",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_02_2016.csv",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "schema/300-schema.json",
+            "encoding": "utf8",
+            "title": "PMQC",
+            "description": "Dados referentes ao mês de Fevereiro de 2016."
+        },
+        {
+            "name": "2016-03",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_03_2016.csv",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "schema/300-schema.json",
+            "encoding": "utf8",
+            "title": "PMQC",
+            "description": "Dados referentes ao mês de Março de 2016."
+        },
+        {
+            "name": "2016-04",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_04_2016.csv",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "schema/300-schema.json",
+            "encoding": "utf8",
+            "title": "PMQC",
+            "description": "Dados referentes ao mês de Abril de 2016."
+        },
+        {
+            "name": "2016-05",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_05_2016.csv",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "schema/300-schema.json",
+            "encoding": "utf8",
+            "title": "PMQC",
+            "description": "Dados referentes ao mês de Maio de 2016."
+        },
+        {
+            "name": "2016-06",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_06_2016.csv",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "schema/300-schema.json",
+            "encoding": "utf8",
+            "title": "PMQC",
+            "description": "Dados referentes ao mês de Junho de 2016."
+        },
+        {
+            "name": "2016-07",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_07_2016.csv",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "schema/300-schema.json",
+            "encoding": "utf8",
+            "title": "PMQC",
+            "description": "Dados referentes ao mês de Julho de 2016."
+        },
+        {
+            "name": "2016-08",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_08_2016.csv",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "schema/300-schema.json",
+            "encoding": "utf8",
+            "title": "PMQC",
+            "description": "Dados referentes ao mês de Agosto de 2016."
+        },
+        {
+            "name": "2016-09",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_09_2016.csv",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "schema/300-schema.json",
+            "encoding": "utf8",
+            "title": "PMQC",
+            "description": "Dados referentes ao mês de Setembro de 2016."
+        },
+        {
+            "name": "2016-10",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_10_2016.csv",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "schema/300-schema.json",
+            "encoding": "utf8",
+            "title": "PMQC",
+            "description": "Dados referentes ao mês de Outubro de 2016."
+        },
+        {
+            "name": "2016-11",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_11_2016.csv",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "schema/300-schema.json",
+            "encoding": "utf8",
+            "title": "PMQC",
+            "description": "Dados referentes ao mês de Novembro de 2016."
+        },
+        {
+            "name": "2016-12",
+            "path": "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_12_2016.csv",
+            "format": "csv",
+            "profile": "tabular-data-resource",
+            "schema": "schema/300-schema.json",
+            "encoding": "utf8",
+            "title": "PMQC",
+            "description": "Dados referentes ao mês de Dezembro de 2016."
         }
     ],
     "keywords": [
@@ -28,14 +350,28 @@
         "qualidade"
     ],
     "name": "pmqc-data-package",
-    "title": "PMQC",
+    "title": "Dados Abertos PMQC",
     "description": "Dados Abertos do Programa de Monitoramento de Combustíveis da Agência Nacional do Petróleo, Gás Natural e Biocombustíveis",
     "homepage": "http://www.anp.gov.br/dados-abertos-anp",
-    "version": "2.0.0",
+    "version": "3.0.0",
     "contributors": [{
-        "title": "José Ferraz Neto",
-        "role": "author"
-    }],
+            "title": "José Ferraz Neto",
+            "role": "author"
+        },
+        {
+            "title": "Ingrid da Silva Martins",
+            "role": "author"
+        },
+        {
+
+            "title": "Priscila Bastos Pinheiro",
+            "role": "author"
+        },
+        {
+            "title": "Ana Amélia Martini",
+            "role": "author"
+        }
+    ],
     "licenses": [{
         "name": "CC-BY-4.0",
         "title": "Creative Commons Attribution 4.0",
