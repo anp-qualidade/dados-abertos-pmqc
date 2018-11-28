@@ -1,0 +1,274 @@
+{
+    "profile": "tabular-data-package",
+    "resources": [{
+        "name": "PMQC Dados Abertos",
+        "path": [
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2018_01.csv",
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2018_02.csv",
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2018_03.csv",
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2018_04.csv",
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2018_05.csv",
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2018_06.csv",
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2018_07.csv",
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2018_08.csv",
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2018_09.csv",
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2018_10.csv",
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2017_01.csv",
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2017_02.csv",
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2017_03.csv",
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2017_04.csv",
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2017_05.csv",
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2017_06.csv",
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2017_07.csv",
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2017_08.csv",
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2017_10.csv",
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2017_11.csv",
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2017_12.csv",
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2016_01.csv",
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2016_02.csv",
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2016_03.csv",
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2016_04.csv",
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2016_05.csv",
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2016_06.csv",
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2016_07.csv",
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2016_08.csv",
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2016_09.csv",
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2016_10.csv",
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2016_11.csv",
+            "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2016_12.csv"
+        ],
+        "format": "csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+            "fields": [{
+                    "name": "DataColeta",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Data de Coleta no formato AAAA-MM-DD (ISO 8601)",
+                    "description": "Data em que a amostra foi coletada no Posto Revendedor de Combustíveis.",
+                    "constraints": {
+                        "required": true,
+                        "pattern": "[0-9]{4}-[0-9]{2}-[0-9]{2}"
+                    }
+                },
+                {
+                    "name": "IdNumeric",
+                    "type": "integer",
+                    "format": "default",
+                    "title": "Chave Primária",
+                    "description": "Código Númerico que identifica uma amostra coletada.",
+                    "constraints": {
+                        "required": true
+                    }
+                },
+                {
+                    "name": "GrupoProduto",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Categoria do combustível",
+                    "description": "Tipos de combustíveis: Etanol Gasolina e Óleo Diesel ",
+                    "constraints": {
+                        "required": true,
+                        "enum": ["Gasolina", "Etanol", "Óleo Diesel"]
+                    }
+                },
+                {
+                    "name": "Produto",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Tipo de combustível",
+                    "description": "Subdivisão de GrupoProduto.",
+                    "constraints": {
+                        "required": true
+                    }
+                },
+                {
+                    "name": "RazaoSocialPosto",
+                    "type": "string",
+                    "format": "default",
+                    "description": "Razão social do Posto Revendedor de Combustível",
+                    "title": "Razão Social",
+                    "constraints": {
+                        "required": true
+                    }
+                },
+                {
+                    "name": "CnpjPosto",
+                    "type": "string",
+                    "format": "default",
+                    "title": "CNPJ",
+                    "description": "O CNPJ do Posto Revendedor de Combustível.",
+                    "constraints": {
+                        "required": true,
+                        "pattern": "[0-9]{2}\\.[0-9]{3}\\.[0-9]{3}/[0-9]{4}-[0-9]{2}"
+                    }
+                },
+                {
+                    "name": "Distribuidora",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Razão Social",
+                    "description": "A razão social da distribuidora de combustível.",
+                    "constraints": {
+                        "required": true
+                    }
+                },
+                {
+                    "name": "Endereço",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Endereço",
+                    "description": "Endereço do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Complemento",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Complemento",
+                    "description": "Complemento do endereço do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Bairro",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Bairro",
+                    "description": "Bairro do Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Município",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Município",
+                    "description": "Município onde está localizado o Posto Revendedor de Combustível."
+                },
+                {
+                    "name": "Latitude",
+                    "type": "number",
+                    "format": "default",
+                    "title": "Latitude",
+                    "description": "Latitude do Posto Revendedor de Combustível"
+                },
+                {
+                    "name": "Longitude",
+                    "type": "number",
+                    "format": "default",
+                    "title": "Longitude",
+                    "description": "Longitude do Posto Revendedor de Combustível"
+                },
+                {
+                    "name": "Uf",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Unidade da Federação",
+                    "description": "UF associada ao Posto Revendedor de Combustível.",
+                    "constraints": {
+                        "required": true,
+                        "enum": [
+                            "AC", "AL", "AM", "AP", "BA", "CE", "DF", "ES", "GO", "MA", "MG", "MS",
+                            "MT", "PA", "PB", "PE", "PI", "PR", "RJ", "RN", "RO", "RR", "RS", "SC",
+                            "SE", "SP", "TO"
+                        ]
+                    }
+                },
+                {
+                    "name": "RegiaoPolitica",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Região Política",
+                    "description": "Região Política do Posto Revendedor de Combustível.",
+                    "constraints": {
+                        "required": true,
+                        "enum": ["CENTRO-OESTE", "NORDESTE", "NORTE", "SUDESTE", "SUL"]
+                    }
+                },
+                {
+                    "name": "Ensaio",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Ensaio físico-químico",
+                    "description": "Nome do ensaio físico-químico realizada na amostra.",
+                    "constraints": {
+                        "required": true,
+                        "enum": [
+                            "Destilação - 10%", "Destilação - 50%", "Destilação - 90%", "Destilação - PFE",
+                            "Destilação - Resíduo", "Destilação - 85%", "Destilação - 95%", "Teor de Enxofre",
+                            "Massa Específica a 20°C", "Teor de Biodiesel", "Ponto de Fulgor", "Teor de Água e Sedimentos",
+                            "Teor Alcoólico", "Teor de Hidrocarbonetos", "Teor de Etanol", "Contaminação total", "Aromáticos",
+                            "Olefínicos", "Saturados", "Material Particulado", "Material Não Volátil", "Condutividade Elétrica",
+                            "Cor", "Potencial Hidrogeniônico (pH)", "Aspecto", "IAD", "MON", "RON", "Teor de Água", "Cor ASTM",
+                            "Água Livre", "Teor de Marcador", "Teor de Metanol", "Destilação - Perda", "Benzeno",
+                            "Número de Cetano Derivado"
+                        ]
+
+                    }
+                },
+                {
+                    "name": "Resultado",
+                    "type": "any",
+                    "format": "default",
+                    "title": "Resultado",
+                    "description": "Resultado do ensaio físico-químico",
+                    "constraints": {
+                        "required": true
+                    }
+                },
+                {
+                    "name": "UnidadeEnsaio",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Unidade",
+                    "description": "Unidade do ensaio físico-químico"
+                },
+                {
+                    "name": "Conforme",
+                    "type": "string",
+                    "format": "default",
+                    "title": "Avaliação de Conformidade",
+                    "description": "Avalia se o resultado é conforme ou não conforme a especificação vigente.",
+                    "constraints": {
+                        "required": true,
+                        "enum": ["Sim", "Não"]
+                    }
+                }
+            ]
+        },
+        "encoding": "utf8",
+        "title": "Dados Abertos PMQC",
+        "description": "Dados referentes ao período de Janeiro/2016 a Outubro/2018"
+    }],
+    "keywords": [
+        "anp",
+        "combustivel",
+        "gasolina",
+        "diesel",
+        "etanol",
+        "qualidade"
+    ],
+    "name": "pmqc-data-package",
+    "title": "Dados Abertos PMQC",
+    "description": "Dados Abertos do Programa de Monitoramento de Combustíveis da Agência Nacional do Petróleo, Gás Natural e Biocombustíveis",
+    "homepage": "http://www.anp.gov.br/dados-abertos-anp",
+    "version": "3.0.0",
+    "contributors": [{
+            "title": "José Ferraz Neto",
+            "role": "author"
+        },
+        {
+            "title": "Ingrid da Silva Martins",
+            "role": "author"
+        },
+        {
+            "title": "Priscila Bastos Pinheiro",
+            "role": "author"
+        },
+        {
+            "title": "Ana Amélia Martini",
+            "role": "author"
+        }
+    ],
+    "licenses": [{
+        "name": "CC-BY-4.0",
+        "title": "Creative Commons Attribution 4.0",
+        "path": "https://creativecommons.org/licenses/by/4.0/"
+    }]
+}
