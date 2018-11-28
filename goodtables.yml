@@ -1,6 +1,4 @@
 datapackages:
-  - 'data/validation/100-datapackage.json'
-  - 'data/validation/200-datapackage.json'
   - 'data/validation/300-datapackage.json'
 
 settings:
