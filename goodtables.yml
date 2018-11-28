@@ -1,16 +1,26 @@
+
+
 files:
   - source: http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2018_02.csv
     schema: data/validation/300-schema.json
-  - source: http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2018_03.csv
-    schema: data/validation/300-schema.json
+    format: csv
+    encoding: utf-8
+    delimiter: ';'
 
 settings:
-  row_limit: -1
   checks:
     # You can pass check types
     - structure
     - schema
-    # ... or individual checks
-    - blank-header
-    - duplicate-row
-    - missing-value
+    # ...or individual checks
+    - no-headers
+    - blank-headers
+  skip_checks:
+    - duplicate-lines
+  error_limit: 1
+  table_limit: 1
+  row_limit: 5000
+  infer_schema: True
+  infer_fields: True
+  order_fields: True
+
