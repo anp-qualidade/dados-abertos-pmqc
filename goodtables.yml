@@ -1,5 +1,8 @@
-datapackages:
-  - 'data/validation/300-datapackage.json'
+files:
+  - source: "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2018_02.csv"
+    schema: data/validation/300-schema.json
+  - source: "http://www.anp.gov.br/images/dadosabertos/PMQC/300_PMQC_2018_03.csv"
+    schema: data/validation/300-schema.json
 
 settings:
   row_limit: -1
